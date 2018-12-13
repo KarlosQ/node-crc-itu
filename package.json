@@ -17,6 +17,9 @@
     "crc",
     "itu"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Carlos Quiroga <quiroga.webmaster@gmail.com>",
   "bugs": {
     "url": "https://github.com/KarlosQ/node-crc-itu/issues"

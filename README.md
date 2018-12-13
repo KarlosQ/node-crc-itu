@@ -1,4 +1,4 @@
-node-crc-itu [![Build Status](https://travis-ci.org/KarlosQ/node-crc-itu.png?branch=master)](https://travis-ci.org/KarlosQ/node-crc-itu)
+node-crc-itu [![npm version](https://badge.fury.io/js/node-crc-itu.svg)](https://badge.fury.io/js/node-crc-itu) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactnavigation.org/docs/contributing.html)
 =======
 
 Install:
@@ -29,7 +29,7 @@ var buff = Buffer.from('0d0103588990501766460026', 'hex');
 var ret = crc16(buff);
 console.log(ret); // 7bf9
 
-// with string without encoding
+// with string without encoding output
 var ret = crc16('0d0103588990501766460026', { toString: false });
 console.log(ret.toString(16)); // 7bf9
 ```
