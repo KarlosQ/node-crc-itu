@@ -9,6 +9,6 @@ var assert = require('assert');
 
 assert.equal(crc16('0d0103588990501766460026'), '7bf9');
 assert.equal(crc16(Buffer.from('0d010358899050176646002a', 'hex')), 'b195');
-assert.equal(crc16('0d010358899050176646002b', { toString: false }).toString(16), 'a01c');
+assert.equal(crc16('0d010358899050176646002b', { encodingOutput: false }).toString(16), 'a01c');
 
 console.log('PASS')

@@ -30,6 +30,6 @@ var ret = crc16(buff);
 console.log(ret); // 7bf9
 
 // with string without encoding output
-var ret = crc16('0d0103588990501766460026', { toString: false });
+var ret = crc16('0d0103588990501766460026', { encodingOutput: false });
 console.log(ret.toString(16)); // 7bf9
 ```
