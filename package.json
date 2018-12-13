@@ -1,0 +1,26 @@
+{
+  "name": "node-crc-itu",
+  "version": "0.1.0",
+  "description": "crc-itu 16 bits",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KarlosQ/node-crc-itu.git"
+  },
+  "keywords": [
+    "crc",
+    "itu"
+  ],
+  "author": "Carlos Quiroga <quiroga.webmaster@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/KarlosQ/node-crc-itu/issues"
+  },
+  "homepage": "https://github.com/KarlosQ/node-crc-itu",
+  "license": "ISC"
+}
